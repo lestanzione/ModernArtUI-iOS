@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C9CCAB41A843D050053DB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CCAB31A843D050053DB74 /* AppDelegate.swift */; };
+		9C9CCAB61A843D050053DB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CCAB51A843D050053DB74 /* ViewController.swift */; };
+		9C9CCAB91A843D050053DB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CCAB71A843D050053DB74 /* Main.storyboard */; };
+		9C9CCABB1A843D050053DB74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CCABA1A843D050053DB74 /* Images.xcassets */; };
+		9C9CCABE1A843D050053DB74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9CCABC1A843D050053DB74 /* LaunchScreen.xib */; };
+		9C9CCACA1A843D050053DB74 /* ModernArtUI_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9CCAC91A843D050053DB74 /* ModernArtUI_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C9CCAC41A843D050053DB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C9CCAA61A843D050053DB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9CCAAD1A843D050053DB74;
+			remoteInfo = "ModernArtUI-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C9CCAAE1A843D050053DB74 /* ModernArtUI-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ModernArtUI-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9CCAB21A843D050053DB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9CCAB31A843D050053DB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C9CCAB51A843D050053DB74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C9CCAB81A843D050053DB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C9CCABA1A843D050053DB74 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C9CCABD1A843D050053DB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9C9CCAC31A843D050053DB74 /* ModernArtUI-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ModernArtUI-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9CCAC81A843D050053DB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C9CCAC91A843D050053DB74 /* ModernArtUI_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernArtUI_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C9CCAAB1A843D050053DB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9CCAC01A843D050053DB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9CCAA51A843D050053DB74 = {
+			isa = PBXGroup;
+			children = (
+				9C9CCAB01A843D050053DB74 /* ModernArtUI-iOS */,
+				9C9CCAC61A843D050053DB74 /* ModernArtUI-iOSTests */,
+				9C9CCAAF1A843D050053DB74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C9CCAAF1A843D050053DB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9CCAAE1A843D050053DB74 /* ModernArtUI-iOS.app */,
+				9C9CCAC31A843D050053DB74 /* ModernArtUI-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C9CCAB01A843D050053DB74 /* ModernArtUI-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C9CCAB31A843D050053DB74 /* AppDelegate.swift */,
+				9C9CCAB51A843D050053DB74 /* ViewController.swift */,
+				9C9CCAB71A843D050053DB74 /* Main.storyboard */,
+				9C9CCABA1A843D050053DB74 /* Images.xcassets */,
+				9C9CCABC1A843D050053DB74 /* LaunchScreen.xib */,
+				9C9CCAB11A843D050053DB74 /* Supporting Files */,
+			);
+			path = "ModernArtUI-iOS";
+			sourceTree = "<group>";
+		};
+		9C9CCAB11A843D050053DB74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C9CCAB21A843D050053DB74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C9CCAC61A843D050053DB74 /* ModernArtUI-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C9CCAC91A843D050053DB74 /* ModernArtUI_iOSTests.swift */,
+				9C9CCAC71A843D050053DB74 /* Supporting Files */,
+			);
+			path = "ModernArtUI-iOSTests";
+			sourceTree = "<group>";
+		};
+		9C9CCAC71A843D050053DB74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C9CCAC81A843D050053DB74 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C9CCAAD1A843D050053DB74 /* ModernArtUI-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9CCACD1A843D050053DB74 /* Build configuration list for PBXNativeTarget "ModernArtUI-iOS" */;
+			buildPhases = (
+				9C9CCAAA1A843D050053DB74 /* Sources */,
+				9C9CCAAB1A843D050053DB74 /* Frameworks */,
+				9C9CCAAC1A843D050053DB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ModernArtUI-iOS";
+			productName = "ModernArtUI-iOS";
+			productReference = 9C9CCAAE1A843D050053DB74 /* ModernArtUI-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C9CCAC21A843D050053DB74 /* ModernArtUI-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C9CCAD01A843D050053DB74 /* Build configuration list for PBXNativeTarget "ModernArtUI-iOSTests" */;
+			buildPhases = (
+				9C9CCABF1A843D050053DB74 /* Sources */,
+				9C9CCAC01A843D050053DB74 /* Frameworks */,
+				9C9CCAC11A843D050053DB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C9CCAC51A843D050053DB74 /* PBXTargetDependency */,
+			);
+			name = "ModernArtUI-iOSTests";
+			productName = "ModernArtUI-iOSTests";
+			productReference = 9C9CCAC31A843D050053DB74 /* ModernArtUI-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C9CCAA61A843D050053DB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Leandro;
+				TargetAttributes = {
+					9C9CCAAD1A843D050053DB74 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9C9CCAC21A843D050053DB74 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9C9CCAAD1A843D050053DB74;
+					};
+				};
+			};
+			buildConfigurationList = 9C9CCAA91A843D050053DB74 /* Build configuration list for PBXProject "ModernArtUI-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C9CCAA51A843D050053DB74;
+			productRefGroup = 9C9CCAAF1A843D050053DB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C9CCAAD1A843D050053DB74 /* ModernArtUI-iOS */,
+				9C9CCAC21A843D050053DB74 /* ModernArtUI-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9CCAAC1A843D050053DB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9CCAB91A843D050053DB74 /* Main.storyboard in Resources */,
+				9C9CCABE1A843D050053DB74 /* LaunchScreen.xib in Resources */,
+				9C9CCABB1A843D050053DB74 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9CCAC11A843D050053DB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C9CCAAA1A843D050053DB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9CCAB61A843D050053DB74 /* ViewController.swift in Sources */,
+				9C9CCAB41A843D050053DB74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9CCABF1A843D050053DB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C9CCACA1A843D050053DB74 /* ModernArtUI_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C9CCAC51A843D050053DB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C9CCAAD1A843D050053DB74 /* ModernArtUI-iOS */;
+			targetProxy = 9C9CCAC41A843D050053DB74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C9CCAB71A843D050053DB74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9CCAB81A843D050053DB74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C9CCABC1A843D050053DB74 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C9CCABD1A843D050053DB74 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C9CCACB1A843D050053DB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C9CCACC1A843D050053DB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C9CCACE1A843D050053DB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ModernArtUI-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C9CCACF1A843D050053DB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ModernArtUI-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C9CCAD11A843D050053DB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModernArtUI-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModernArtUI-iOS.app/ModernArtUI-iOS";
+			};
+			name = Debug;
+		};
+		9C9CCAD21A843D050053DB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModernArtUI-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModernArtUI-iOS.app/ModernArtUI-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C9CCAA91A843D050053DB74 /* Build configuration list for PBXProject "ModernArtUI-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9CCACB1A843D050053DB74 /* Debug */,
+				9C9CCACC1A843D050053DB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C9CCACD1A843D050053DB74 /* Build configuration list for PBXNativeTarget "ModernArtUI-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9CCACE1A843D050053DB74 /* Debug */,
+				9C9CCACF1A843D050053DB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C9CCAD01A843D050053DB74 /* Build configuration list for PBXNativeTarget "ModernArtUI-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C9CCAD11A843D050053DB74 /* Debug */,
+				9C9CCAD21A843D050053DB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C9CCAA61A843D050053DB74 /* Project object */;
+}
